@@ -1,9 +1,9 @@
-@Library('ashokit_shared_lib') _
+#@Library('ashokit_shared_lib') _
 
 pipeline {
     agent any    
     tools{
-        maven "Maven-3.9.4"
+        maven "MAVEN3"
     }
     stages {
         stage('Clone') {
